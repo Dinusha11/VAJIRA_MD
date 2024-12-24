@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Put your session id here' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=S3pFTSYK#D68sXVizpbsDCVYimUJ-F9CrKGd4-GGgn6dmq015dFk' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94764040729' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
